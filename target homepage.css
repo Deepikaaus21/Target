@@ -1,0 +1,234 @@
+
+/* designing search*/
+{
+    margin:0px;
+    padding:0px;
+    font-family:sans serif;
+    font-size:20px;
+    font-style:bold;
+}
+
+.main{
+    width: 600px;
+    border:03px solid gray;
+    padding: 0px;
+    border-radius: 35px;
+    }
+
+input{
+    background: transparent;
+    border: 3px;
+    height: 40px;
+    outline: 0px;
+    width: 550px;
+       
+}
+
+body{
+   
+    margin-top: 10px;
+}
+
+.icon-search{
+    color:rgb(211, 27, 42);
+    font size: 70px;
+}
+
+/* Navigation bar styling*/
+
+/*Navbar Functionality*/
+#navbar{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(206, 103, 103);
+    height: 8vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top:15px;
+   border: 2px solid black;
+   border-radius:15px;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(185, 28, 28);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/*container*/
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#row2{
+    width:24vw;
+    height:21vh;
+    box-shadow: 2px 7px 16px 19px;
+     margin-top:51px;
+     margin-bottom: 51px;
+     display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     position: relative;
+     margin-right: 38px;
+     border-radius: 40px;
+}
+#row2::before{
+    content: '';
+    background: url('shoes.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+#row3{
+    position: relative;
+    width: 24vw;
+    height:21vh;
+    display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     box-shadow: 2px 7px 16px 19px;
+     margin-top:51px;
+     margin-bottom: 51px;
+     
+     margin-left: 38px;
+     border-radius: 40px;
+}
+#row3::before{
+    content: '';
+    background: url('dinnerware.jpg') no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+
+#top3{
+    text-align: center;
+    color:red;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#container4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+}  
+#row4{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('mens clothing.jpg') no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#row5{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('summer.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#row6{
+    width: 30vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('women clothing.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+  
+
+
+/*Designing the footer*/
+footer{
+    text-align: center;
+
+}
+
+#social{
+    float: center;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+.socialimg {
+    height: 30px;
+}
+
+  img{
+    border-radius: 50%;
+  }
+  
+ 
+
+  /* Pagination links */
+.pagination a {
+    color: black;
+    float: right;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    .header-right {
+      float: none;
+    }
+  }
