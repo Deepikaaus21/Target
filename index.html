@@ -10,14 +10,25 @@
            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="target homepage.css">
    <link rel="stylesheet" href="target homepage.javascript">
+   <script src="script.js"></script>
+    
           
 </head>
-  
 <body>
+
     <header>
+            <center>
+                
+<button onclick="myFunction()">Toggle dark mode</button>
+
+    <div id="coupon">
+    <img src="coupon code.webp" alt="coupon">
+        <button onclick="closecoupon()">&times;</button>
+       </div>
+     
+       
+
             
-            
-         <center>
             <h1 style="color:Tomato;">Target</h1>
             <div class="main">
                 <input type="text" name="box" placeholder="Search products and brands">
@@ -104,6 +115,10 @@
         </div>
         </footer>
       
-           
+        <script>
+            windows.onload= loadcoupon()
+           </script>
+</body>
+</html>
 </body>
 </html>
