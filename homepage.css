@@ -1,12 +1,44 @@
 
 /* designing search*/
-{
+*{
     margin:0px;
     padding:0px;
     font-family:sans serif;
     font-size:20px;
     font-style:bold;
 }
+
+
+
+
+
+.my_dark{
+  background-color: black;
+  color: white;
+}
+#coupon1{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 1000;
+
+}
+.cancel{
+ position: absolute;
+ margin-top: -1%;
+ padding:  0px 9px;
+ border-radius: 50%;
+ margin-left: -3%;
+ border: none;
+ background-color: rgb(94, 193, 250);
+ /* font-size: 19px; */
+ outline: none;
+}
+
+
+
+
+
 
 .main{
     width: 600px;
@@ -23,6 +55,9 @@ input{
     width: 550px;
        
 }
+.main i{
+  height:20px;
+}
 
 body{
    
@@ -31,7 +66,7 @@ body{
 
 .icon-search{
     color:rgb(211, 27, 42);
-    font size: 70px;
+    font-size: 70px;
 }
 
 /* Navigation bar styling*/
@@ -197,9 +232,7 @@ footer{
     height: 30px;
 }
 
-  img{
-    border-radius: 50%;
-  }
+ 
   
  
 
